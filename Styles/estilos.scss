@@ -12,7 +12,7 @@ body {
     grid-template-rows: 10% auto 10%;
     grid-template-columns: 25% auto 25%;
   }
-  .Header {
+  /*.Header {
     grid-area: Header;
     display: flex;
     justify-content: space-between;
@@ -42,7 +42,7 @@ body {
         max-width: 60px;
         max-height: 60px;
     }
-  }
+  }*/
   .Navigation {
     grid-area: Navigation;
     font-size: 2rem;
