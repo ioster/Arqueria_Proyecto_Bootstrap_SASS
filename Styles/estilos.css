@@ -43,20 +43,20 @@ body {
 .Header__Logo {
   margin: 0%;
   padding: 0%;
-  height: 60px;
   width: 60px;
+  height: 60px;
   border-radius: 50%;
 }
 
 .Header__Nothing {
-  max-width: 70px;
-  max-height: 70px;
+  width: 70px;
+  height: 70px;
   visibility: hidden;
 }
 
 .Header__Go-Back {
-  max-width: 60px;
-  max-height: 60px;
+  width: 60px;
+  height: 60px;
 }
 
 .Navigation {
@@ -64,7 +64,6 @@ body {
   -ms-grid-column: 1;
   -ms-grid-column-span: 4;
   grid-area: Navigation;
-  font-size: 2rem;
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -101,8 +100,10 @@ body {
   background: lightslategray;
 }
 
-.Navigation .button {
-  font: bold 30px Arial;
+.Navigation .button, .Navigation .button--sucursales, .Navigation .button--profes, .Navigation .button--contacto, .Navigation .button--galeria {
+  font-size: 1.75rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
   text-decoration: none;
   background-color: #686666;
   color: #fcfcfc;
@@ -114,6 +115,22 @@ body {
   border-left: 1px solid #cccccc;
   -webkit-box-shadow: 0px 0px 15px -2px #000000;
   box-shadow: 0px 0px 15px -2px #000000;
+}
+
+.Navigation .button--sucursales {
+  background-color: red;
+}
+
+.Navigation .button--profes {
+  background-color: blueviolet;
+}
+
+.Navigation .button--contacto {
+  background-color: green;
+}
+
+.Navigation .button--galeria {
+  background-color: yellowgreen;
 }
 
 .Footer {
@@ -134,8 +151,8 @@ body {
 }
 
 .Footer img {
-  max-width: 45px;
-  max-height: 45px;
+  width: 45px;
+  height: 45px;
 }
 
 .Footer__Redes:hover {
@@ -225,16 +242,17 @@ body {
 }
 
 .Profesores img {
-  height: 525px;
   width: auto;
+  height: 525px;
 }
 
-.Profesores h2 {
-  font-size: 40px;
+.Profesores h3 {
+  font-size: 1.75rem;
 }
 
 .Profesores p {
   font-style: italic;
+  font-size: 1rem;
 }
 
 .Main__Sucursales {
@@ -270,7 +288,6 @@ body {
   justify-items: center;
   text-align: center;
   color: white;
-  font-size: 1.2rem;
 }
 
 .Locations iframe {
@@ -367,6 +384,7 @@ body {
       -ms-grid-row-align: center;
       align-self: center;
   width: 450px;
+  height: auto;
   margin: auto;
   background: rgba(0, 0, 0, 0.4);
   padding: 10px 20px;
@@ -377,6 +395,7 @@ body {
 }
 
 .Main__Contacto .Formulario h2 {
+  font-size: 2rem;
   color: white;
   text-align: center;
   margin: 0;
@@ -400,7 +419,7 @@ body {
 
 .Main__Contacto #boton {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   background: #686666;
   color: white;
   padding: 15px;
