@@ -7,7 +7,9 @@ body {
   height: 100vh;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "Header Header Header Header" "Navigation Navigation Navigation Navigation" "Footer Footer Footer Footer";
+      grid-template-areas: "Header Header Header Header"
+ "Navigation Navigation Navigation Navigation"
+ "Footer Footer Footer Footer";
   -ms-grid-rows: 10% auto 10%;
       grid-template-rows: 10% auto 10%;
   -ms-grid-columns: 25% auto 25%;
@@ -208,7 +210,9 @@ body {
   height: 100vh;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "Header Header Header" "Profe Profe Profe"         "Footer Footer Footer";
+      grid-template-areas: "Header Header Header"
+ "Profe Profe Profe"        
+ "Footer Footer Footer";
   -ms-grid-rows: 10% auto 10%;
       grid-template-rows: 10% auto 10%;
   -ms-grid-columns: 33.33% auto 33.33%;
@@ -259,7 +263,9 @@ body {
   height: 100vh;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "Header Header Header" "Location Location Location" "Footer Footer Footer";
+      grid-template-areas: "Header Header Header"
+ "Location Location Location"
+ "Footer Footer Footer";
   -ms-grid-rows: 10% auto 10%;
       grid-template-rows: 10% auto 10%;
   -ms-grid-columns: 33.33% auto 33.33%;
@@ -309,7 +315,9 @@ body {
   height: 100vh;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "Header Header Header" "Pic Pic Pic" "Footer Footer Footer";
+      grid-template-areas: "Header Header Header"
+ "Pic Pic Pic"
+ "Footer Footer Footer";
   -ms-grid-rows: 10% auto 10%;
       grid-template-rows: 10% auto 10%;
   -ms-grid-columns: 33.33% auto 33.33%;
@@ -361,7 +369,9 @@ body {
   height: 100vh;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "Header Header Header" "Contacto Contacto Contacto" "Footer Footer Footer";
+      grid-template-areas: "Header Header Header"
+ "Contacto Contacto Contacto"
+ "Footer Footer Footer";
   -ms-grid-rows: 10% auto 10%;
       grid-template-rows: 10% auto 10%;
   -ms-grid-columns: 33.33% auto 33.33%;
@@ -430,7 +440,9 @@ body {
   height: 100vh;
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "Header Header Header" "Login Login Login" "Footer Footer Footer";
+      grid-template-areas: "Header Header Header"
+ "Login Login Login"
+ "Footer Footer Footer";
   -ms-grid-rows: 10% auto 10%;
       grid-template-rows: 10% auto 10%;
   -ms-grid-columns: 33.33% auto 33.33%;
@@ -483,9 +495,7 @@ body {
   .Header H1 {
     font-size: 20px;
   }
-  .Footer Img {
-    max-height: 75px;
-    max-width: 75px;
+  .Footer a {
     padding-right: 12px;
     padding-left: 12px;
   }
